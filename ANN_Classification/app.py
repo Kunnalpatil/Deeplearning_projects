@@ -6,8 +6,6 @@ from sklearn.preprocessing import StandardScaler,LabelEncoder, OneHotEncoder
 import pickle
 import os 
 
-os.chdir()
-
 file_path = os.path.abspath('model.h5') 
 if os.path.exists(file_path): 
     print(f"File found: {file_path}")
