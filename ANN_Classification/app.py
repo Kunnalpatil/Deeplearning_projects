@@ -4,17 +4,9 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler,LabelEncoder, OneHotEncoder
 import pickle
-import os 
-
-file_path = os.path.abspath('model.h5') 
-if os.path.exists(file_path): 
-    print(f"File found: {file_path}")
-else: print(f"File not found: {file_path}")
 
 # Load the trained model
 model = tf.keras.models.load_model('model.h5')
-
-
 
 #Load the encoders and scalar
 with open('label_encoder_gender.pkl','rb') as f:
