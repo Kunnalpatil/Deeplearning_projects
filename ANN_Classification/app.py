@@ -4,10 +4,11 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler,LabelEncoder, OneHotEncoder
 import pickle
+import os 
 
 os.chdir()
 
-import os file_path = os.path.abspath('model.h5') 
+file_path = os.path.abspath('model.h5') 
 if os.path.exists(file_path): 
     print(f"File found: {file_path}")
 else: print(f"File not found: {file_path}")
