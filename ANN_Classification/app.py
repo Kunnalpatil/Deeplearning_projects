@@ -9,13 +9,13 @@ import pickle
 model = tf.keras.models.load_model('ANN_Classification/model.h5')
 
 #Load the encoders and scalar
-with open('label_encoder_gender.pkl','rb') as f:
+with open('ANN_Classification/label_encoder_gender.pkl','rb') as f:
     label_encoder_gender = pickle.load(f)
     
-with open('Onehotencoder.pkl','rb') as f:
+with open('ANN_Classification/Onehotencoder.pkl','rb') as f:
     Onehotencoder = pickle.load(f)
     
-with open('scaler.pkl','rb') as f:
+with open('ANN_Classification/scaler.pkl','rb') as f:
     scaler = pickle.load(f)
     
     
