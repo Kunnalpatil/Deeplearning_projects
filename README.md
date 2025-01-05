@@ -5,6 +5,7 @@
 This repository contains two Deep learning projects: Customer Churn Prediction using an Artificial Neural Network (ANN) and IMDB Movie Review Sentiment Analysis using a Simple Recurrent Neural Network (RNN).
 
 ## Project 1: Customer Churn Prediction
+[Test project](https://customer-churn-prediction-artificial-neutral-network.streamlit.app/)
 
 ### Overview
 
